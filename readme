@@ -1,0 +1,9 @@
+Open VSCode 
+
+Create Folder in Terminals : mkdir mysql-nodeJS 
+
+Change directory: cd mysql-nodeJS 
+
+Install package.json: npm init –y  
+
+Install package: npm i express mysql nodemon 
