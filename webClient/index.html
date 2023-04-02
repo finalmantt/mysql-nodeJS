@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      Insert ID: <input id="insertID" /> Name: <input id="insertName" /> Email:
+      <input id="insertEmail" /><button onclick="insertData()">Insert</button>
+    </div>
+    <div>
+      Select ID: <input id="selectID" />
+      <button onclick="selectData()">Select</button>
+    </div>
+    <div>
+      Update ID: <input id="updateID" /> Name: <input id="updateName" /> Email:
+      <input id="updateEmail" /><button onclick="updateData()">Update</button>
+    </div>
+    <div>
+      Delete ID: <input id="deleteID" /><button onclick="deleteData()">
+        Delete
+      </button>
+    </div>
+    <h1>Show Single Data</h1>
+
+    <div>
+      Information:
+      <div id="myInfo">ID</div>
+    </div>
+
+    <h1>Show Table Data</h1>
+    <div><table id="myTable"></table></div>
+    <script src="index.js"></script>
+  </body>
+</html>
